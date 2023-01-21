@@ -1,0 +1,19 @@
+{
+  "name": "binance_future_data-0.0.1",
+  "version": "1.0.0",
+  "description": "Binance Future Order Book Data",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node --watch index.js",
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "Bishal Goon",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "kafkajs": "^2.2.3",
+    "uuid": "^9.0.0",
+    "ws": "^8.11.0"
+  }
+}
